@@ -373,7 +373,7 @@ Booleanプロパティは、そのコンポーネントの**本質的な構成�
 | Activity| Act | |
 | Dialog | Dlg | |
 | Thumbnail | Thumb | |
-| Background | BG | |ぎ
+| Background | BG | |
 | Number | Num | |
 | Checkbox | Chk | |
 
