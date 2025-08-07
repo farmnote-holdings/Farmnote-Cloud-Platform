@@ -1,0 +1,23 @@
+# Cursorが無視すべきファイル・ディレクトリ
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# システムファイル
+.DS_Store
+*.pem
+
+# ログファイル
+*.log
+move-history.log
+
+# バックアップファイル
+*.backup
+*.bak
+*~
+
+# アーカイブファイル
+*.zip
+*.tar
+*.gz
