@@ -47,7 +47,8 @@ Cloud Platform v3のアーキテクチャに統合することで、他の機能
 - 参考
 	- [繁殖計画レポートのアップデートリリース](https://docs.google.com/presentation/d/1-tjPC-VFhi6NtxE2uJSWkZ_RUaQZd_uk-KexkZaS0Zo/edit?usp=sharing)
 	- [繁殖方針ガイド機能のリリースノート](https://docs.google.com/presentation/d/1bxDtfWwHtJqLZbOcSbT1FdDl1m4ld8uFY4lyJBWFtAE/edit?usp=sharing)
-
+    - [個体リストの使い方_1](./samples/images/村崎牧場の使い方_1.png)
+    - [個体リストの使い方_2](./samples/images/村崎牧場の使い方_2.png)
 
 ### 3.3. 現状の課題・問題点
 
