@@ -1,6 +1,6 @@
 # Farmnote Gene 
 
-## 2. 現状提供しているサービス
+## 1.現状提供しているサービス
 
 | フェーズ |                                                                                                                                                                            利用しているレポート・サービス                                                                                                                                                                             | 課題                                                      |
 | :--- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------ |
@@ -12,15 +12,15 @@
 
 #### Cloud × ゲノムデータ十分：岡外牧場
 
-| レポート名            | 外部リンク                                                                                                                          | HTMLファイル                                                                                |     |
-| :--------------- | :----------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- | --- |
-| 検査状況             | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN9vOz4vdD/genome_tested_result_report.html)                   | [HTML](./samples/okasoto_lN2vOz4vdD/genome_tested_result_report.html)                   |     |
-| 各形質の推移          | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/economics_value_report.html)                        | [HTML](./samples/okasoto_lN2vOz4vdD/economics_value_report.html)                        |     |
-| 経産牛群動態           | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/lactation_cattle_herd_report_ver2.html)             | [HTML](./samples/okasoto_lN2vOz4vdD/lactation_cattle_herd_report_ver2.html)             |     |
-| 繁殖計画             | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/latest_breeding_plan.html)                          | [HTML](./samples/okasoto_lN2vOz4vdD/latest_breeding_plan.html)                      |     |
+| レポート名        | 外部リンク                                                                                                                          | HTMLファイル                                                                                |     |
+| :----------- | :----------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- | --- |
+| 検査状況         | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN9vOz4vdD/genome_tested_result_report.html)                   | [HTML](./samples/okasoto_lN2vOz4vdD/genome_tested_result_report.html)                   |     |
+| 各形質の推移       | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/economics_value_report.html)                        | [HTML](./samples/okasoto_lN2vOz4vdD/economics_value_report.html)                        |     |
+| 経産牛群動態       | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/lactation_cattle_herd_report_ver2.html)             | [HTML](./samples/okasoto_lN2vOz4vdD/lactation_cattle_herd_report_ver2.html)             |     |
+| 繁殖計画         | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/latest_breeding_plan.html)                          | [HTML](./samples/okasoto_lN2vOz4vdD/latest_breeding_plan.html)                          |     |
 | 授精・分娩・更新チェック | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/insemination_calving_replacement_check_report.html) | [HTML](./samples/okasoto_lN2vOz4vdD/insemination_calving_replacement_check_report.html) |     |
 | 繁殖ポリシー設定用    | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/breeding_performance_metrics.html)                  | [HTML](./samples/okasoto_lN2vOz4vdD/breeding_performance_metrics.html)                  |     |
-| 繁殖シナリオ           | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/breeding_plan_scenario.html)                        | [HTML](./samples/okasoto_lN2vOz4vdD/breeding_plan_scenario.html)                        |     |
+| 繁殖シナリオ       | [外部リンク](https://farmnote-gene-monitoring.storage.googleapis.com/lN2vOz4vdD/breeding_plan_scenario.html)                        | [HTML](./samples/okasoto_lN2vOz4vdD/breeding_plan_scenario.html)                        |     |
 
 #### 検定 × ゲノムデータ十分：渡部牧場
 
@@ -65,3 +65,30 @@
 | 授精・分娩・更新チェック |                                                                 |
 | 繁殖シナリオ       | 簡易的なシミュレーション機能として利用されているが、シミュレーションの自由度が低く、使いにくい印象。エクセルの副産物シミュレーションを代替するものではない。       |
 | 繁殖ポリシー設定用    | ほとんど使われてないと思われる。提供価値は低いと思われる。                                   |
+
+
+## 2.工数について
+
+- ソフトウェアの一つのライセンスとして、課金できるようにしたい
+	- Geneの画面
+	- Cloudへの画面の移植
+
+
+|                                 | 工数    | 項目                               |
+| :------------------------------ | :---- | -------------------------------- |
+| GeneのUIに移植する場合                  | 1〜3週間 | 画面デザインのみ（データない場合のハンドリングは適当になるかも） |
+| レポート機能のみCloud v3のcompassに移植する場合 | 3ヶ月   | compassのUIの実装・                   |
+
+### 2.1 GeneのUIに移植する場合（工数：1〜3週間）
+- 既存のGeneにレポート画面を追加する
+- アサインイメージ：岩崎
+
+### 2.2 Cloudと認証機構を共存させて、GeneのUIに移植する場合（工数：3〜4ヶ月）
+
+- 認証機構の実装
+	- 現状Frirebaseに依存する形で、実装されている。
+	- Cloudの認証に同居させるように実装する
+- GeneのUIを維持して、Gene側に画面を一つ追加して、レポートを埋め込む
+※レポートを埋め込み作業は1〜3週間
+
+このあと、新Compass UIに段階的にレポートのパーツを移植していくことになる
