@@ -17,7 +17,7 @@ docs/
 │       ├── product-vision.md
 │       └── mission-statement.md
 ├── context/                     # チャットコンテキスト管理
-│   ├── chat-prompts/            # チャット用プロンプト
+│   ├── prompt/                  # チャット用プロンプト
 │   │   ├── core-prompts.md
 │   │   ├── feature-discussion.md
 │   │   └── strategy-review.md

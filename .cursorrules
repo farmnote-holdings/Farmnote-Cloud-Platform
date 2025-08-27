@@ -103,6 +103,7 @@
 
 #### アーキテクチャ検討時
 ```
+@docs/context/prompt/technology-selection-prompt.md
 @docs/context/templates/architecture-review-template.md
 @docs/knowledge/technical-glossary.md
 ```
