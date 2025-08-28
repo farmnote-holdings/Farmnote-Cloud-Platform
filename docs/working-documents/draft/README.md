@@ -5,18 +5,11 @@
 ## ディレクトリ構成
 
 ```
-draft/
-├── in-progress/                # 作業中の資料
-│   ├── concept-drafts/         # コンセプト案
-│   ├── architecture-drafts/    # アーキテクチャ案
-│   ├── feature-drafts/         # 機能案
-│   └── analysis-drafts/        # 分析資料
-├── review/                     # レビュー待ちの資料
-│   ├── pending-review/         # レビュー待ち
-│   └── under-review/           # レビュー中
-└── archive/                    # 一時アーカイブ
-    ├── abandoned/              # 破棄された案
-    └── merged/                 # 他の資料に統合された案
+working-documents/
+├── in-progress/            # 作業中の資料
+├── review/                 # レビュー待ちの資料
+├── archive/                # アーカイブ
+└── abandoned/              # 破棄された案
 ```
 
 ## ファイル命名規則

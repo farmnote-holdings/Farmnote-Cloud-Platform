@@ -4,3 +4,5 @@
 /docs/temp/*
 /docs/.DS_Store
 .obsidian/
+
+!.gitkeep

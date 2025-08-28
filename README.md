@@ -83,8 +83,9 @@ docs/
 │   └── timelines/              # タイムライン
 │       ├── release-schedule.md
 │       └── feature-timeline.md
-├── meeting-record/             # 議事録
-├── deepdive/                   # 既存
+├── meeting-note/               # 議事録
+├── meeting-record/             # 議事録用生データ
+├── working-documents/          # 作成中のドキュメント
 └── temp/                       # 一時作業用(コミットされない)
 ```
 
