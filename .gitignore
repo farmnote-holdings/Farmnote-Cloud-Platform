@@ -6,3 +6,7 @@
 .obsidian/
 
 !.gitkeep
+
+# Cursor Context
+# Ignore the .cursor-context directory to keep AI rules local
+.cursor-context/
