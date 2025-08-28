@@ -5,8 +5,8 @@
 
 ## 2. 前提となる戦略
 本ワークフローは、以下の戦略文書で定義された構想を、牧場の現場レベルで具現化するものである。
-- **[グループ長期経営戦略〜Farmnote Data Agent戦略〜.md](../.../../../executive/20_Strategy/グループ長期経営戦略〜Farmnote%20Data%20Agent戦略〜.md)**
-- **[Farmnote Cloud Platform Ver.3 製品戦略.md](../.../../../executive/20_Strategy/Farmnote%20Cloud%20Platform%20Ver.3%20製品戦略.md)**
+- **[グループ長期経営戦略〜Farmnote Data Agent戦略〜.md](./FY24_グループ長期経営戦略〜FarmnoteDataAgent戦略〜.md)**
+- **[Farmnote Cloud Platform Ver.3 製品戦略.md](./FarmnoteCloudPlatformVer3製品戦略.md)**
 
 特に、`Farmnote Data Agent`および`Farmnote Assistant`を中核に据え、AIが担当者と管理者を有機的に繋ぐことで、データ入力の負荷を最小化し、データに基づいた意思決定を最大化することを目指す。
 
