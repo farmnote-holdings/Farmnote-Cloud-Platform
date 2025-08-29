@@ -109,6 +109,9 @@ docs/
       archive-market-analysis-2024.md
       product-vision.md
     ```
+##### chips
+cursorの自分専用のルールの命名規則は「.cursor/rules/my-*.mdc」にしてください。
+
 
 ### 生データについて
 
@@ -126,3 +129,4 @@ docs/
 ## ファイルの追加・更新フロー
 
 特に規定しない
+

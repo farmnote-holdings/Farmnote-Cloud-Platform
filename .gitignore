@@ -5,7 +5,6 @@
 /docs/.DS_Store
 .obsidian/
 
+.cursor/rules/my-*.mdc
+
 !.gitkeep
-
-/.cursor/rules/misawa-daily-routine-rules.mdc
-
