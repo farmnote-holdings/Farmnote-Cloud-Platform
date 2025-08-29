@@ -85,6 +85,7 @@ docs/
 │       └── feature-timeline.md
 ├── meeting-note/               # 議事録
 ├── meeting-record/             # 議事録用生データ
+├── system-design/              # 着手中の開発の詳細な設計
 ├── working-documents/          # 作成中のドキュメント
 └── temp/                       # 一時作業用(コミットされない)
 ```
